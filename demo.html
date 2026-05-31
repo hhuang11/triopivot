@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>系统演示 — 三合策 Trio Pivot</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-brand">三合策</div>
+    <ul class="nav-links">
+      <li><a href="index.html" data-i18n="nav.home">首页</a></li>
+      <li><a href="cases.html" data-i18n="nav.cases">案例</a></li>
+      <li><a href="demo.html" class="active" data-i18n="nav.demo">演示</a></li>
+      <li><a href="about.html" data-i18n="nav.about">关于</a></li>
+    </ul>
+    <button id="lang-toggle" class="lang-toggle" onclick="toggleLang()">EN</button>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <h1 data-i18n="demo.title">系统演示</h1>
+    <p data-i18n="demo.intro">观看决策领航系统的实际操作演示，了解各模块如何协同工作。</p>
+  </header>
+
+  <main class="container demo-container">
+
+    <!-- System Screenshots -->
+    <section class="demo-section">
+      <h2 data-i18n="demo.screenshots.title">系统界面</h2>
+      <p class="section-intro" data-i18n="demo.screenshots.intro">决策领航系统的核心操作界面，展示多维度分析框架的实际呈现。</p>
+      <div class="screenshot-gallery">
+        <figure class="screenshot-item">
+          <img src="screenshot-system.png" alt="决策领航系统界面">
+          <figcaption data-i18n="demo.screenshot.caption">系统主界面 — 多模块协同分析</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Demo Videos -->
+    <section class="demo-section">
+      <h2 data-i18n="demo.videos.title">操作演示</h2>
+      <p class="section-intro" data-i18n="demo.videos.intro">观看完整的系统操作流程，了解各模块如何为不同场景提供决策参考。</p>
+
+      <div class="demo-video-stack">
+        <!-- Business & Family -->
+        <div class="demo-video-card">
+          <h3 data-i18n="demo.male.title">系统全景 · 企业与家族决策</h3>
+          <div class="video-wrapper">
+            <video controls preload="metadata">
+              <source src="demo-male.mp4" type="video/mp4">
+              您的浏览器不支持视频播放。
+            </video>
+          </div>
+          <p class="video-caption" data-i18n="demo.male.caption">涵盖产业研究、负面清单、模拟复盘、文化沉淀等核心模块，展示企业级决策场景的完整服务流程。</p>
+        </div>
+
+        <!-- Personal Growth -->
+        <div class="demo-video-card">
+          <h3 data-i18n="demo.female.title">系统全景 · 个人成长与转型</h3>
+          <div class="video-wrapper">
+            <video controls preload="metadata">
+              <source src="demo-female.mp4" type="video/mp4">
+              您的浏览器不支持视频播放。
+            </video>
+          </div>
+          <p class="video-caption" data-i18n="demo.female.caption">涵盖命运转轮、易经筹策、时机研判等核心模块，展示个人决策场景的完整服务流程。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Links -->
+    <section class="demo-links">
+      <h3 data-i18n="demo.more">了解更多</h3>
+      <div class="cta-buttons">
+        <a href="cases.html" class="btn btn-primary" data-i18n="demo.btn.cases">查看案例</a>
+        <a href="about.html" class="btn btn-secondary" data-i18n="demo.btn.about">关于我们</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-disclaimer" data-i18n="footer.disclaimer">本平台提供的所有内容仅供参考，不构成任何投资建议或专业意见。<a href="disclaimer.html">完整免责声明</a></p>
+      <p class="footer-copy" data-i18n="footer.copy">&copy; 2025 Trio Pivot. All rights reserved. | <a href="mailto:triopivot@gmail.com">triopivot@gmail.com</a></p>
+    </div>
+  </footer>
+  <script src="i18n.js"></script>
+</body>
+</html>

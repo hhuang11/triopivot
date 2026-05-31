@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>案例研究 — 三合策 Trio Pivot</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-brand">三合策</div>
+    <ul class="nav-links">
+      <li><a href="index.html" data-i18n="nav.home">首页</a></li>
+      <li><a href="cases.html" class="active" data-i18n="nav.cases">案例</a></li>
+      <li><a href="demo.html" data-i18n="nav.demo">演示</a></li>
+      <li><a href="about.html" data-i18n="nav.about">关于</a></li>
+    </ul>
+    <button id="lang-toggle" class="lang-toggle" onclick="toggleLang()">EN</button>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <h1 data-i18n="cases.title">案例研究</h1>
+    <p data-i18n="cases.intro">以下案例基于真实咨询场景改编，展示决策领航系统在不同情境下的应用方式。</p>
+  </header>
+
+  <main class="container cases-container">
+
+    <!-- Case 1 -->
+    <article class="case-card">
+      <div class="case-header">
+        <span class="case-number" data-i18n="case1.label">案例一</span>
+        <h2 data-i18n="case1.title">科技企业转型决策</h2>
+      </div>
+      <div class="case-body">
+        <div class="case-profile">
+          <p><strong data-i18n="case1.client">客户：</strong><span data-i18n="case1.client.val">赵铭辉，43岁，科技企业创始人</span></p>
+          <p><strong data-i18n="case1.bg">背景：</strong><span data-i18n="case1.bg.val">公司面临转型关口，需要评估是否进入AI赛道</span></p>
+        </div>
+        <div class="case-modules">
+          <h4 data-i18n="case1.modules">使用模块</h4>
+          <div class="module-tags">
+            <span class="tag" data-i18n="case1.tag1">负面清单</span>
+            <span class="tag" data-i18n="case1.tag2">产业研究</span>
+            <span class="tag" data-i18n="case1.tag3">模拟复盘</span>
+          </div>
+        </div>
+        <div class="case-process">
+          <h4 data-i18n="case1.process">分析过程</h4>
+          <ul>
+            <li data-i18n="case1.p1"><strong>负面清单：</strong>识别出三项关键风险——技术人才缺口、现金流压力期、竞品专利壁垒</li>
+            <li data-i18n="case1.p2"><strong>产业研究：</strong>量化AI行业景气度，对比中美市场窗口期差异</li>
+            <li data-i18n="case1.p3"><strong>模拟复盘：</strong>对三条路径（全面转型/渐进试水/战略合作）进行压力测试</li>
+          </ul>
+        </div>
+        <div class="case-outcome">
+          <h4 data-i18n="case1.outcome.title">决策参考</h4>
+          <p data-i18n="case1.outcome">系统建议采用"渐进试水"路径，先以现有业务现金流支撑小规模AI团队，待验证后再扩大投入。客户最终采纳，6个月后AI部门实现正向现金流。</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- Case 2 -->
+    <article class="case-card">
+      <div class="case-header">
+        <span class="case-number" data-i18n="case2.label">案例二</span>
+        <h2 data-i18n="case2.title">跨国家族文化传承</h2>
+      </div>
+      <div class="case-body">
+        <div class="case-profile">
+          <p><strong data-i18n="case2.client">客户：</strong><span data-i18n="case2.client.val">Kevin Liu，48岁，新加坡/硅谷双基地</span></p>
+          <p><strong data-i18n="case2.bg">背景：</strong><span data-i18n="case2.bg.val">三代华人家族，子女在海外成长，面临文化断层与代际沟通困境</span></p>
+        </div>
+        <div class="case-modules">
+          <h4 data-i18n="case2.modules">使用模块</h4>
+          <div class="module-tags">
+            <span class="tag" data-i18n="case2.tag1">文化沉淀</span>
+            <span class="tag" data-i18n="case2.tag2">模拟复盘</span>
+          </div>
+        </div>
+        <div class="case-process">
+          <h4 data-i18n="case2.process">分析过程</h4>
+          <ul>
+            <li data-i18n="case2.p1"><strong>文化沉淀：</strong>结构化梳理三代家族史，提取核心价值观与决策模式</li>
+            <li data-i18n="case2.p2"><strong>模拟复盘：</strong>回溯家族关键决策节点（移民、创业、教育），分析决策逻辑</li>
+          </ul>
+        </div>
+        <div class="case-outcome">
+          <h4 data-i18n="case2.outcome.title">决策参考</h4>
+          <p data-i18n="case2.outcome">生成了完整的"家族智慧手册"，以故事化方式呈现三代人的决策智慧。子女通过阅读手册理解了家族价值观的演变脉络，代际对话显著改善。</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- Case 3 -->
+    <article class="case-card">
+      <div class="case-header">
+        <span class="case-number" data-i18n="case3.label">案例三</span>
+        <h2 data-i18n="case3.title">伴侣关系深度评估</h2>
+      </div>
+      <div class="case-body">
+        <div class="case-profile">
+          <p><strong data-i18n="case3.client">客户：</strong><span data-i18n="case3.client.val">何嘉怡 & 陈立恒，结婚6年</span></p>
+          <p><strong data-i18n="case3.bg">背景：</strong><span data-i18n="case3.bg.val">双方感到关系进入瓶颈期，希望从新视角理解彼此的行为模式</span></p>
+        </div>
+        <div class="case-modules">
+          <h4 data-i18n="case3.modules">使用模块</h4>
+          <div class="module-tags">
+            <span class="tag" data-i18n="case3.tag1">命运转轮（合盘）</span>
+          </div>
+        </div>
+        <div class="case-process">
+          <h4 data-i18n="case3.process">分析过程</h4>
+          <ul>
+            <li data-i18n="case3.p1"><strong>命运转轮：</strong>分别建立双方的个人时间节律模型，再进行"合盘"分析</li>
+            <li data-i18n="case3.p2"><strong>互动模式：</strong>量化双方在沟通、财务决策、育儿等维度的互补与冲突点</li>
+            <li data-i18n="case3.p3"><strong>节律叠加：</strong>标注双方能量高低期的重合与错位时段</li>
+          </ul>
+        </div>
+        <div class="case-outcome">
+          <h4 data-i18n="case3.outcome.title">决策参考</h4>
+          <p data-i18n="case3.outcome">报告揭示了双方冲突高发期与各自低能量期的重合规律，建议在特定时段减少重大决策讨论。双方反馈"终于理解了为什么总在周末吵架"。</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- Case 4 -->
+    <article class="case-card">
+      <div class="case-header">
+        <span class="case-number" data-i18n="case4.label">案例四</span>
+        <h2 data-i18n="case4.title">职业转型时机研判</h2>
+      </div>
+      <div class="case-body">
+        <div class="case-profile">
+          <p><strong data-i18n="case4.client">客户：</strong><span data-i18n="case4.client.val">Michelle Chen，35岁，旧金山</span></p>
+          <p><strong data-i18n="case4.bg">背景：</strong><span data-i18n="case4.bg.val">在大厂工作7年，考虑创业但对时机和方向犹豫不决</span></p>
+        </div>
+        <div class="case-modules">
+          <h4 data-i18n="case4.modules">使用模块</h4>
+          <div class="module-tags">
+            <span class="tag" data-i18n="case4.tag1">命运转轮</span>
+            <span class="tag" data-i18n="case4.tag2">易经筹策</span>
+          </div>
+        </div>
+        <div class="case-process">
+          <h4 data-i18n="case4.process">分析过程</h4>
+          <ul>
+            <li data-i18n="case4.p1"><strong>命运转轮：</strong>建立个人时间节律模型，识别近3年的能量波动周期</li>
+            <li data-i18n="case4.p2"><strong>易经筹策：</strong>针对"是否在今年Q3离职创业"进行情境分析</li>
+            <li data-i18n="case4.p3"><strong>综合研判：</strong>交叉验证两套系统的结论一致性</li>
+          </ul>
+        </div>
+        <div class="case-outcome">
+          <h4 data-i18n="case4.outcome.title">决策参考</h4>
+          <p data-i18n="case4.outcome">两套系统一致显示当前处于"蓄势期"，建议推迟6个月再行动，利用这段时间完善商业计划与人脉储备。客户采纳后在次年Q1顺利启动，首轮融资成功。</p>
+        </div>
+      </div>
+    </article>
+
+  </main>
+
+  <!-- Note -->
+  <section class="section cases-note">
+    <div class="container">
+      <p class="note-text" data-i18n="cases.note">* 以上案例均经过脱敏处理，人名和具体细节已做改编，仅用于展示系统应用方式。</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-disclaimer" data-i18n="footer.disclaimer">本平台提供的所有内容仅供参考，不构成任何投资建议或专业意见。<a href="disclaimer.html">完整免责声明</a></p>
+      <p class="footer-copy" data-i18n="footer.copy">&copy; 2025 Trio Pivot. All rights reserved. | <a href="mailto:triopivot@gmail.com">triopivot@gmail.com</a></p>
+    </div>
+  </footer>
+  <script src="i18n.js"></script>
+</body>
+</html>

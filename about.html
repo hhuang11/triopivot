@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>关于我们 — 三合策 Trio Pivot</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-brand">三合策</div>
+    <ul class="nav-links">
+      <li><a href="index.html" data-i18n="nav.home">首页</a></li>
+      <li><a href="cases.html" data-i18n="nav.cases">案例</a></li>
+      <li><a href="demo.html" data-i18n="nav.demo">演示</a></li>
+      <li><a href="about.html" class="active" data-i18n="nav.about">关于</a></li>
+    </ul>
+    <button id="lang-toggle" class="lang-toggle" onclick="toggleLang()">EN</button>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <h1 data-i18n="about.title">关于我们</h1>
+  </header>
+
+  <main class="container about-container">
+
+    <!-- Mission (preserved original paragraph) -->
+    <section class="about-section">
+      <p class="lead" data-i18n="about.mission">三合策致力于为决策者构建数字化、多维度的评估框架。我们不替代人做决策，旨在辅助决策者优化思维模型，在复杂系统中，达成"天时、地利、人和"的动态平衡。</p>
+    </section>
+
+    <!-- Core Capabilities -->
+    <section class="about-section">
+      <h2 data-i18n="about.capabilities.title">核心能力</h2>
+      <div class="capability-grid">
+        <div class="capability-item">
+          <h3 data-i18n="about.cap1.title">技术与工程</h3>
+          <p data-i18n="about.cap1.desc">核心成员具备10年以上软件工程与系统设计背景。自研多模块量化决策引擎，从数据、模型到可视化报告生成，端到端闭环。</p>
+        </div>
+        <div class="capability-item">
+          <h3 data-i18n="about.cap2.title">中西融合</h3>
+          <p data-i18n="about.cap2.desc">东方古典智慧工程化 + 时运周期分析；西方清单决策框架 + 多学科思维模型 + 风险量化。所有结论均附带评分依据与因子拆解。</p>
+        </div>
+        <div class="capability-item">
+          <h3 data-i18n="about.cap3.title">文化与历史纵深</h3>
+          <p data-i18n="about.cap3.desc">团队具备中西方政治、经济、历史的系统性研究积累。本地化运维历史人物和事件数据库，用于模式匹配和案例参照。</p>
+        </div>
+        <div class="capability-item">
+          <h3 data-i18n="about.cap4.title">高净值客户咨询经验</h3>
+          <p data-i18n="about.cap4.desc">长期服务企业家、家族办公室、高管群体。擅长处理复杂、多变量的决策场景。严格保密机制，一对一专属服务。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="about-section about-contact">
+      <h2 data-i18n="about.contact.title">联系我们</h2>
+      <p data-i18n="about.contact.desc">如您有兴趣了解更多，欢迎通过以下方式联系：</p>
+      <p class="contact-email"><a href="mailto:triopivot@gmail.com">triopivot@gmail.com</a></p>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-disclaimer" data-i18n="footer.disclaimer">本平台提供的所有内容仅供参考，不构成任何投资建议或专业意见。<a href="disclaimer.html">完整免责声明</a></p>
+      <p class="footer-copy" data-i18n="footer.copy">&copy; 2025 Trio Pivot. All rights reserved. | <a href="mailto:triopivot@gmail.com">triopivot@gmail.com</a></p>
+    </div>
+  </footer>
+  <script src="i18n.js"></script>
+</body>
+</html>

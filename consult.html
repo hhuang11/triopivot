@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>预约咨询 — 三合策 Trio Pivot</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation (consult link hidden from other pages, but accessible directly) -->
+  <nav class="navbar">
+    <div class="nav-brand">三合策</div>
+    <ul class="nav-links">
+      <li><a href="index.html" data-i18n="nav.home">首页</a></li>
+      <li><a href="cases.html" data-i18n="nav.cases">案例</a></li>
+      <li><a href="demo.html" data-i18n="nav.demo">演示</a></li>
+      <li><a href="about.html" data-i18n="nav.about">关于</a></li>
+    </ul>
+    <button id="lang-toggle" class="lang-toggle" onclick="toggleLang()">EN</button>
+  </nav>
+
+  <header class="page-header">
+    <h1>预约咨询</h1>
+    <p>选择合适的时间，与我们进行一对一深度交流。</p>
+  </header>
+
+  <main class="container" style="padding: 3rem 2rem;">
+
+    <section style="margin-bottom: 2.5rem;">
+      <h2>预约方式</h2>
+      <p>请通过以下链接选择可用时间段：</p>
+      <p style="margin-top: 1rem;"><a href="https://cal.com" class="btn btn-primary" target="_blank">在线预约 →</a></p>
+    </section>
+
+    <section style="margin-bottom: 2.5rem;">
+      <h2>咨询流程</h2>
+      <ol style="padding-left: 1.5rem; line-height: 2.2;">
+        <li>完成在线预约并填写基本信息</li>
+        <li>收到确认邮件及准备事项清单</li>
+        <li>按约定时间进行视频/电话咨询</li>
+        <li>咨询后收到分析报告与参考建议</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>费用说明</h2>
+      <p>首次咨询（30分钟）免费。后续服务根据项目复杂度另行报价。</p>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-disclaimer">本平台提供的所有内容仅供参考，不构成任何投资建议或专业意见。<a href="disclaimer.html">完整免责声明</a></p>
+      <p class="footer-copy">&copy; 2025 Trio Pivot. All rights reserved. | <a href="mailto:triopivot@gmail.com">triopivot@gmail.com</a></p>
+    </div>
+  </footer>
+  <script src="i18n.js"></script>
+</body>
+</html>
