@@ -7,14 +7,14 @@ const translations = {
   "nav.about": { zh: "关于", en: "About" },
 
   // === Homepage ===
-  "hero.title": { zh: "三合策", en: "Trio Pivot" },
-  "hero.subtitle": { zh: "Trio Pivot", en: "三合策" },
+  "hero.title": { zh: "三合策", en: "Trio-Pivot" },
+  "hero.subtitle": { zh: "Trio-Pivot", en: "三合策" },
   "hero.tagline": { zh: "决策有据，行止有时", en: "Data-Driven Decisions, Timely Actions" },
 
   "home.who.title": { zh: "我们是谁", en: "Who We Are" },
   "home.who.lead": {
     zh: "三合策是一支跨学科的量化决策辅助团队，专注于将中西方传统智慧体系化、工程化。我们融合数据科学、文化研究与技术工程，构建多维度评估框架，为个人、企业和家族提供深度决策参考。",
-    en: "Trio Pivot is a multidisciplinary quantitative decision-support team dedicated to systematizing and engineering Eastern and Western traditional wisdom. We integrate data science, cultural research, and technical engineering to build multi-dimensional assessment frameworks, providing in-depth decision references for individuals, businesses, and families."
+    en: "Trio-Pivot is a multidisciplinary quantitative decision-support team dedicated to systematizing and engineering Eastern and Western traditional wisdom. We integrate data science, cultural research, and technical engineering to build multi-dimensional assessment frameworks, providing in-depth decision references for individuals, businesses, and families."
   },
 
   "home.modules.title": { zh: "系统模块", en: "System Modules" },
@@ -235,7 +235,7 @@ const translations = {
   "about.title": { zh: "关于我们", en: "About Us" },
   "about.mission": {
     zh: "三合策致力于为决策者构建数字化、多维度的评估框架。我们不替代人做决策，旨在辅助决策者优化思维模型，在复杂系统中，达成“天时、地利、人和”的动态平衡。",
-    en: "Trio Pivot is dedicated to building digital, multi-dimensional evaluation frameworks for decision-makers. We don\'t make decisions for people \u2014 we help decision-makers optimize their mental models to achieve dynamic balance of timing, positioning, and human factors in complex systems."
+    en: "Trio-Pivot is dedicated to building digital, multi-dimensional evaluation frameworks for decision-makers. We don\'t make decisions for people \u2014 we help decision-makers optimize their mental models to achieve dynamic balance of timing, positioning, and human factors in complex systems."
   },
   "about.capabilities.title": { zh: "核心能力", en: "Core Capabilities" },
   "about.cap1.title": { zh: "技术与工程", en: "Technology & Engineering" },
@@ -270,8 +270,8 @@ const translations = {
     en: 'All content on this platform is for reference only and does not constitute investment advice or professional opinions. <a href="disclaimer.html">Full Disclaimer</a>'
   },
   "footer.copy": {
-    zh: '&copy; 2025 Trio Pivot. All rights reserved. | <a href="mailto:triopivot@gmail.com">triopivot@gmail.com</a>',
-    en: '&copy; 2025 Trio Pivot. All rights reserved. | <a href="mailto:triopivot@gmail.com">triopivot@gmail.com</a>'
+    zh: '&copy; ' + new Date().getFullYear() + ' Trio-Pivot. All rights reserved. | <a href="mailto:triopivot@gmail.com">triopivot@gmail.com</a>',
+    en: '&copy; ' + new Date().getFullYear() + ' Trio-Pivot. All rights reserved. | <a href="mailto:triopivot@gmail.com">triopivot@gmail.com</a>'
   }
 };
 
