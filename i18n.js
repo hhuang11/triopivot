@@ -74,6 +74,10 @@ const translations = {
     zh: "以下案例基于真实咨询场景改编，展示决策领航系统在不同情境下的应用方式。",
     en: "The following cases are adapted from real consulting scenarios, demonstrating how the Decision Voyager system applies in different contexts."
   },
+  "cases.privacy": {
+    zh: "* 三合策注重用户隐私，所有案例均做过脱敏处理，信息虚化。",
+    en: "* Trio Strategy values user privacy. All cases have been anonymized and details altered."
+  },
 
   "case1.label": { zh: "案例一", en: "Case 1" },
   "case1.title": { zh: "科技企业转型决策", en: "Tech Enterprise Transformation" },
@@ -216,6 +220,10 @@ const translations = {
   "demo.videos.intro": {
     zh: "观看完整的系统操作流程，了解各模块如何为不同场景提供决策参考。",
     en: "Watch complete system operation workflows to see how modules provide decision references for different scenarios."
+  },
+  "demo.videos.privacy": {
+    zh: "* 三合策注重用户隐私，所有案例均做过脱敏处理，信息虚化。",
+    en: "* Trio Strategy values user privacy. All cases have been anonymized and details altered."
   },
   "demo.male.title": { zh: "系统全景 \u00b7 企业与家族决策", en: "Full Overview \u00b7 Business & Family Decisions" },
   "demo.male.caption": {
